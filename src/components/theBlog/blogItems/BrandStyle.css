@@ -1,0 +1,29 @@
+.brand {
+  position: absolute;
+  left: 100%;
+  animation: scrollLeft 20s linear infinite;
+}
+
+@keyframes scrollLeft {
+  to {
+    left: -30%;
+  }
+}
+
+.brand-1 {
+  animation-delay: calc(20s / 5 * (5 - 1) * -1);
+}
+.brand-2 {
+  animation-delay: calc(20s / 5 * (5 - 2) * -1);
+}
+.brand-3 {
+  animation-delay: calc(20s / 5 * (5 - 3) * -1);
+}
+.brand-4 {
+  animation-delay: calc(20s / 5 * (5 - 4) * -1);
+}
+.brand-5 {
+  animation-delay: calc(20s / 5 * (5 - 5) * -1);
+}
+
+
