@@ -39,6 +39,7 @@ const NaveRight = () => {
 
   return (
     <div className="flex lg:items-center lg:gap-5 justify-between relative ">
+      {/* side nav */}
       <div
         ref={sideNaveRef}
         className="sideNave w-0 h-0 font-medium bg-zinc-800/20 rounded-br-4xl rounded-tl-4xl bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 p-7 absolute top-10 right-0 z-50 hidden overflow-hidden "
@@ -115,6 +116,7 @@ const NaveRight = () => {
           </NavLink>
         </ul>
       </div>
+      {/* top nav */}
       <div className="mr-5 hidden lg:inline-block text-[400] text-[0.8rem]">
         <NavLink
           to={"/contact"}
