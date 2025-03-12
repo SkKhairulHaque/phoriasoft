@@ -55,7 +55,7 @@ const NaveRight = () => {
           <NavLink
             to={"/expertise"}
             className={({ isActive }) =>
-              isActive ? "text-black" : "hover:text-[#ff7e00]"
+              isActive ? "text-[#ff7e00]" : "hover:text-[#ff7e00]"
             }
           >
             Expertise
@@ -63,7 +63,7 @@ const NaveRight = () => {
           <NavLink
             to={"/blog"}
             className={({ isActive }) =>
-              isActive ? "text-black" : "hover:text-[#ff7e00]"
+              isActive ? "text-[#ff7e00]" : "hover:text-[#ff7e00]"
             }
           >
             Blog
@@ -71,7 +71,7 @@ const NaveRight = () => {
           <NavLink
             to={"/anfrage"}
             className={({ isActive }) =>
-              isActive ? "text-black" : "hover:text-[#ff7e00]"
+              isActive ? "text-[#ff7e00]" : "hover:text-[#ff7e00]"
             }
           >
             Inquiry
@@ -79,7 +79,7 @@ const NaveRight = () => {
           <NavLink
             to={"/uber"}
             className={({ isActive }) =>
-              isActive ? "text-black" : "hover:text-[#ff7e00]"
+              isActive ? "text-[#ff7e00]" : "hover:text-[#ff7e00]"
             }
           >
             About Us
@@ -87,14 +87,14 @@ const NaveRight = () => {
           <NavLink
             to={"/contact"}
             className={({ isActive }) =>
-              isActive ? "text-black" : "hover:text-[#ff7e00]"
+              isActive ? "text-[#ff7e00]" : "hover:text-[#ff7e00]"
             }
           >
             Contact Us
           </NavLink>
           <NavLink className="">
             <div className="flex items-center mr-5 ">
-              <div className=" bg-green-500   ">
+              <div className="">
                 <img
                   src="Slicing/header/Flag-ind.png"
                   alt=""
@@ -107,7 +107,7 @@ const NaveRight = () => {
                 className="appearance-none bg-no-repeat bg-[center_right_12px]  py-1 px-4 pr-8 object-center outline-none mr-2 "
                 style={{ backgroundImage: "url('Slicing/footer/arrow.png')" }}
               >
-                <option value="india" className="text-black bg-gray-200">
+                <option value="india" className="text-[#ff7e00] bg-gray-200">
                   IND
                 </option>
               </select>
@@ -118,7 +118,7 @@ const NaveRight = () => {
       <div className="mr-5 hidden lg:inline-block text-[400] text-[0.8rem]">
         <NavLink
           to={"/contact"}
-          className={({ isActive }) => (isActive ? "text-black" : "hover:text-[#ff7e00]")}
+          className={({ isActive }) => (isActive ? "text-[#ff7e00]" : "hover:text-[#ff7e00]")}
         >
           Contact Us
         </NavLink>
@@ -133,7 +133,7 @@ const NaveRight = () => {
           className="appearance-none bg-no-repeat bg-[center_right_12px]  py-1 px-4 pr-8 object-center outline-none mr-2 "
           style={{ backgroundImage: "url('Slicing/footer/arrow.png')" }}
         >
-          <option value="india" className="text-black bg-gray-200">
+          <option value="india" className="text-[#ff7e00] bg-gray-200">
             IND
           </option>
         </select>

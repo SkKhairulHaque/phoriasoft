@@ -10,6 +10,7 @@ import Consultation from "./consultation/Consultation";
 import Footer from "./footer/Footer";
 import Privacy from "./privacy/Privacy";
 import Terms from "./Terms/Terms";
+import Contact from "./contack/Consultation";
 
 export {
   NaveBar,
@@ -23,5 +24,6 @@ export {
   Consultation,
   Footer, 
   Privacy,
-  Terms
+  Terms,
+  Contact
 };
