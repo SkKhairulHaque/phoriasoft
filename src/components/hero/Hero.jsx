@@ -35,8 +35,7 @@ const Hero = () => {
   });
 
   return (
-    <div className="w-full h-[65vh] bg-[url('/public/Slicing/header/banner-back-new.jpg')] bg-cover bg-center lg:h-[90vh] px-[5vw] relative">
-      <div className="absolute top-0 right-[5vw] "></div>
+    <div className="w-full h-[65vh] bg-[url('/public/Slicing/header/banner-back-new.jpg')] bg-cover bg-center lg:h-[90vh] px-[5vw] relative  ">
       <section className="section-1 w-full lg:h-1/2 font-poppins lg:px-[5vw] lg:pt-[5vw] relative  ">
         <h1 className="text-2xl lg:text-[6vw] font-poppins lg:font-light relative z-9  ">
           We create
@@ -44,12 +43,12 @@ const Hero = () => {
 
         <div className="w-full h-[8vw] lg:h-[7.5vw] flex items-center text-2xl lg:text-[6vw] lg:-mt-6 font-bold relative ">
           <div className=" w-[25vw] lg:w-[21vw] h-full overflow-hidden relative z-99 ">
-            {/* ------ */}
+            {/* ---degital --- */}
             <div
               ref={digitalRef}
               className="w-[0] h-full flex items-center overflow-hidden relative shrink-0  "
             >
-              {/* --- */}
+              {/* -- degital svg dev-- */}
               <div className="w-[20vw] h-[7.5vw] flex items-center shrink-0 ">
                 <svg
                   viewBox="0 0 158 53"
@@ -78,13 +77,13 @@ const Hero = () => {
               </div>
               {/* --- */}
             </div>
-            {/* ------- */}
+            {/* ---ux & ui---- */}
 
             <div
               ref={uxRef}
               className="w-[0] h-full absolute overflow-hidden top-0 left-0 "
             >
-              {/* --- */}
+              {/* -- ux & ui svg dev-- */}
 
               <div className="w-[21vw] h-[7.5vw] flex items-center shrink-0 ">
                 <svg
@@ -128,7 +127,7 @@ const Hero = () => {
       </section>
 
       <section className="section-2 relative mt-10 lg:mt-10ph lg:flex lg:justify-between lg:items-center lg:h-1/2  ">
-        <div className="lg:w-1/2 lg:h-full flex flex-col-reverse lg:flex-row  lg:items-end lg:pl-[5vw] ">
+        <div className="lg:w-1/2 lg:h-[36.5vh] flex flex-col-reverse lg:flex-row  lg:items-end lg:pl-[5vw] ">
           <Button
             name="SEE OUR WORK"
             img={Arrow}
@@ -137,7 +136,7 @@ const Hero = () => {
             style="bg-black text-white py-5 px-[3.5rem] "
           />
         </div>
-        <div className="lg:h-full lg:w-1/2 font-poppins lg:pl-[3.5vw] ">
+        <div className="lg:h-[36.5vh] lg:w-1/2 font-poppins lg:pl-[3.5vw]  ">
           <p
             className="lg:w-full lg:text-[1.3rem] lg:mt-[3vw] 
            "
@@ -155,7 +154,7 @@ const Hero = () => {
             <br />
             that drive results and transfrom businesses
           </p>
-          <div className="">
+          <div className="relative">
             <Button
               name="Let's Start"
               imgS="ml-2"
@@ -166,7 +165,7 @@ const Hero = () => {
               name="SEE OUR WORK"
               img={Arrow}
               imgS="ml-3"
-              btnPerent="lg:hidden visible  "
+              btnPerent="lg:hidden visible"
               style="bg-black text-white p-5 mt-5 text-[0.8rem] "
             />
           </div>
