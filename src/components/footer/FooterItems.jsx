@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const FooterItems = () => {
   return (
@@ -24,12 +24,66 @@ const FooterItems = () => {
             </h1>
             <span className="w-[1.8rem] h-[2px] bg-[#ff7e00] block mb-8 mt-3 rounded-xl "></span>
             <ul className="flex flex-col gap-[.5rem] ">
-              <li className="hover:text-[#ff7e00] text-[0.9rem]">Home</li>
-              <li className="hover:text-[#ff7e00] text-[0.9rem]">Expertise</li>
-              <li className="hover:text-[#ff7e00] text-[0.9rem]">Blog</li>
-              <li className="hover:text-[#ff7e00] text-[0.9rem]">Inquiry</li>
-              <li className="hover:text-[#ff7e00] text-[0.9rem]">About Us</li>
-              <li className="hover:text-[#ff7e00] text-[0.9rem]">Contact us</li>
+              <li className="hover:text-[#ff7e00] text-[0.9rem]">
+                <NavLink
+                  to={"/"}
+                  className={({ isActive }) =>
+                    isActive ? "text-[#ff7e00]" : "hover:text-[#ff7e00]  "
+                  }
+                >
+                  Home
+                </NavLink>{" "}
+              </li>
+              <li className="hover:text-[#ff7e00] text-[0.9rem]">
+                <NavLink
+                  to={"/Expertise"}
+                  className={({ isActive }) =>
+                    isActive ? "text-[#ff7e00]" : "hover:text-[#ff7e00]  "
+                  }
+                >
+                  Expertise
+                </NavLink>
+              </li>
+              <li className="hover:text-[#ff7e00] text-[0.9rem]">
+                <NavLink
+                  to={"/Blog"}
+                  className={({ isActive }) =>
+                    isActive ? "text-[#ff7e00]" : "hover:text-[#ff7e00]  "
+                  }
+                >
+                  Blog
+                </NavLink>
+              </li>
+              <li className="hover:text-[#ff7e00] text-[0.9rem]">
+                <NavLink
+                  to={"/Inquiry"}
+                  className={({ isActive }) =>
+                    isActive ? "text-[#ff7e00]" : "hover:text-[#ff7e00]  "
+                  }
+                >
+                  Inquiry
+                </NavLink>
+              </li>
+              <li className="hover:text-[#ff7e00] text-[0.9rem]">
+                <NavLink
+                  to={"/About"}
+                  className={({ isActive }) =>
+                    isActive ? "text-[#ff7e00]" : "hover:text-[#ff7e00]  "
+                  }
+                >
+                  About Us
+                </NavLink>
+              </li>
+              <li className="hover:text-[#ff7e00] text-[0.9rem]">
+                <NavLink
+                  to={"/contact"}
+                  className={({ isActive }) =>
+                    isActive ? "text-[#ff7e00]" : "hover:text-[#ff7e00]  "
+                  }
+                >
+                  Contact Us
+                </NavLink>
+              </li>
             </ul>
           </div>
           <div>
@@ -122,8 +176,8 @@ const FooterItems = () => {
           </div>
         </div>
         <div className="flex items-center gap-20 lg:gap-10 capitalize my-5 lg:mb-0 text-[#ff7e00] ">
-          <Link to="/terms">terms</Link>
-          <Link to="/privacy">Privacy</Link>
+          <NavLink to="/terms">terms</NavLink>
+          <NavLink to="/privacy">Privacy</NavLink>
         </div>
       </div>
     </footer>
