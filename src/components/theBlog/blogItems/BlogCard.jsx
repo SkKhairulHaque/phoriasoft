@@ -51,7 +51,7 @@ const BlogCards = () => {
   ]);
 
   return (
-    <div className="w-full h-[43vh] lg:h-[45vh] px-[5vw] lg:px-[10vw] font-poppins flex flex-nowrap shrink-0 overflow-x-hidden gap-x-5 ">
+    <div className="w-full h-[43vh] lg:h-[55vh] 2xl:h-[45vh] px-[5vw] lg:px-[10vw] font-poppins flex flex-nowrap shrink-0 overflow-x-hidden gap-x-5 ">
       <Swiper
         grabCursor={true}
         loop={true}

@@ -35,13 +35,13 @@ const Hero = () => {
   });
 
   return (
-    <div className="w-full h-[65vh] bg-[url('/public/Slicing/header/banner-back-new.jpg')] bg-cover bg-center lg:h-[90vh] px-[5vw] relative  ">
-      <section className="section-1 w-full lg:h-1/2 font-poppins lg:px-[5vw] lg:pt-[5vw] relative  ">
+    <div className="w-full h-[65vh] bg-[url('/public/Slicing/header/banner-back-new.jpg')] bg-cover bg-center lg:min-h-[90vh] px-[5vw] relative  ">
+      <section className="section-1 w-full lg:h-1/2 font-poppins lg:px-[5vw] lg:pt-[5vw] relative ">
         <h1 className="text-2xl lg:text-[6vw] font-poppins lg:font-light relative z-9  ">
           We create
         </h1>
 
-        <div className="w-full h-[8vw] lg:h-[7.5vw] flex items-center text-2xl lg:text-[6vw] lg:-mt-6 font-bold relative ">
+        <div className="w-full h-[8vw] lg:h-[7.5vw] flex items-center text-2xl lg:text-[6vw] lg:-mt-6 font-bold relative  ">
           <div className=" w-[25vw] lg:w-[21vw] h-full overflow-hidden relative z-99 ">
             {/* ---degital --- */}
             <div
@@ -121,13 +121,13 @@ const Hero = () => {
           </div>
         </div>
 
-        <h1 className="text-[7.5vw] lg:text-[5.7vw] pl-[31vw] font-bold">
+        <h1 className="text-[7.5vw] lg:text-[6.2vw] pl-[28.77vw] font-bold leading-none -mt-2  ">
           That work
         </h1>
       </section>
 
-      <section className="section-2 relative mt-10 lg:mt-10ph lg:flex lg:justify-between lg:items-center lg:h-1/2  ">
-        <div className="lg:w-1/2 lg:h-[36.5vh] flex flex-col-reverse lg:flex-row  lg:items-end lg:pl-[5vw] ">
+      <section className="section-2 relative lg:flex lg:justify-between lg:items-center lg:h-1/2 mt-10 lg:mt-0 ">
+        <div className="lg:w-1/2 h-full flex flex-col-reverse lg:flex-row  lg:items-end lg:pl-[5vw]">
           <Button
             name="SEE OUR WORK"
             img={Arrow}
@@ -136,7 +136,8 @@ const Hero = () => {
             style="bg-black text-white py-5 px-[3.5rem] "
           />
         </div>
-        <div className="lg:h-[36.5vh] lg:w-1/2 font-poppins lg:pl-[3.5vw]  ">
+        <div className="lg:h-full lg:w-1/2 font-poppins lg:pl-[3.5vw] ">
+
           <p
             className="lg:w-full lg:text-[1.3rem] lg:mt-[3vw] 
            "

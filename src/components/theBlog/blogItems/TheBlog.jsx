@@ -18,7 +18,7 @@ const TheBlog = () => {
   ]);
 
   return (
-    <div className="w-full lg:h-[40vh]  font-poppins px-[10vw]  relative flex flex-col lg:flex-row lg:items-center lg:text-2xl lg:justify-between ">
+    <div className="w-full lg:h-[55vh] 2xl:h-[40vh]  font-poppins px-[10vw]  relative flex flex-col lg:flex-row lg:items-center lg:text-2xl lg:justify-between  ">
       <section className="w-[30vw] h-full ">
         <h4 className="flex items-center">
           The Blog{" "}
