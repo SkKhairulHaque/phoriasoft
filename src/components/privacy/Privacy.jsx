@@ -1,11 +1,8 @@
-import NaveBar from "../naveBar/NaveBar";
-import Footer from "../footer/Footer";
+
 
 const Privacy = () => {
   return (
     <>
-      <NaveBar />
-
       <div className="container mx-auto p-6">
         <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
         <p className="text-gray-600 mb-2">Last Updated: 10-03-2024</p>
@@ -135,7 +132,6 @@ const Privacy = () => {
           </a>
         </p>
       </div>
-      <Footer />
     </>
   );
 };

@@ -2,9 +2,7 @@ import LocomotiveScroll from "locomotive-scroll";
 import {
   Blog,
   Consultation,
-  Footer,
   Hero,
-  NaveBar,
   OurPortfolio,
   OurProjects,
   UberUns,
@@ -18,7 +16,7 @@ const App = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-   
+
     const handleReload = () => {
       window.scrollTo(0, 0);
     };
@@ -35,7 +33,6 @@ const App = () => {
       ref={locomotive}
       className="w-full min-h-screen bg-[#fff] relative font-poppins overflow-x-hidden"
     >
-      <NaveBar />
       <Hero />
       <UberUns />
       <OurProjects />
@@ -44,7 +41,6 @@ const App = () => {
       <OurPortfolio />
       <Blog />
       <Consultation />
-      <Footer />
     </div>
   );
 };
