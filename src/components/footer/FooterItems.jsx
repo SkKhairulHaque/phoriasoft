@@ -8,7 +8,7 @@ const FooterItems = () => {
           <img
             src="/Slicing/header/logo-dark.png"
             alt=""
-            className="w-[10vw] top-0"
+            className="w-[35vw] lg:w-[15vw] xl:w-[10vw] top-0"
           />
           <h4 className="mt-10 text-[#f1f1f1b4] text-[1rem] font-light ">
             Elevating communication, marketing, <br />

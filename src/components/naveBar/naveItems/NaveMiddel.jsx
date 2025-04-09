@@ -36,7 +36,7 @@ const NaveMiddel = () => {
         Inquiry
       </NavLink>
       <NavLink
-        to={"/Uberuns"}
+        to={"/about"}
         className={({ isActive }) =>
           isActive ? "text-black" : "hover:text-[#ff7e00]  "
         }

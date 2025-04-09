@@ -78,7 +78,7 @@ const NaveRight = () => {
             Inquiry
           </NavLink>
           <NavLink
-            to={"/uber"}
+            to={"/about"}
             className={({ isActive }) =>
               isActive ? "text-[#ff7e00]" : "hover:text-[#ff7e00]"
             }

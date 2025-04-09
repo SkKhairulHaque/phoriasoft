@@ -12,6 +12,8 @@ import Privacy from "./privacy/Privacy";
 import Terms from "./Terms/Terms";
 import Contact from "./contack/Consultation";
 
+import AboutUs from "./aboutUs/AboutUs";
+
 export {
   NaveBar,
   Hero,
@@ -25,5 +27,6 @@ export {
   Footer, 
   Privacy,
   Terms,
-  Contact
+  Contact,
+  AboutUs
 };
